@@ -1,0 +1,199 @@
+.appHeader  {
+    height: 75px;
+    background-color: #242424;
+    color: #fff;
+    font-size: 14px;
+}
+.appHeaderBox {
+    height: 70px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.appHeaderLeftBox {
+    display: flex;
+}
+.appHeaderLogo {
+    display: block;
+    width: 176px;
+    height: 69px;
+    background-image: url(../../Static/image/sprite_01.png);
+    background-position: 0 0;
+}
+
+.appHeaderSelectList {
+    display: flex;
+    line-height: 70px;
+}
+
+.appHeaderSelectItem {
+    position: relative;
+}
+.appHeaderSelectItem a {
+    display: block;
+    padding: 0 20px;
+    color: #ccc;
+}
+
+.appHeaderSelectItem:last-of-type a {
+    position: relative;
+}
+.appHeaderSelectItem:last-of-type a::after {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 19px;
+    background-image: url(../../Static/image/sprite_01.png);
+    background-position: -190px 0;
+    top: 20px;
+    right: -15px;
+}
+
+.appHeaderSelectItem:hover a  {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+}
+
+.appHeaderSelectItem .active{
+    color: #fff !important;
+    background: #000;
+    text-decoration: none;
+}
+.appHeaderSelectItem .active .appHeaderSelectIcon {
+    position: absolute;
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url(../../Static/image/sprite_01.png);
+    background-position: -226px 0;
+}
+
+.appHeaderRightBox {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    font-size: 12px;
+}
+.appHeaderRightBox .appHeaderSearchBox {
+    position: relative;
+}
+.appHeaderRightBox .appHeaderSearchBox .appHeaderSearch {
+    width: 221px;
+    height: 32px;
+    border-radius: 16px;
+}
+Input {
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+Input::placeholder {
+    font-size: 12px;
+}
+.appHeaderDownSlider {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 237px;
+    z-index: 999;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 4px 7px #555;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+.appHeaderDownSlider .searchHeader {
+    height: 35px;
+}
+.appHeaderDownSlider .searchHeader .discover {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.appHeaderDownSlider .searchBody {
+    display: flex;
+    border: 1px solid rgb(183, 183, 187);
+}
+.appHeaderDownSlider .searchBody .kind {
+    width: 65px;
+    padding-top: 10px;
+    border-bottom: none;
+}
+.appHeaderDownSlider .searchBody .kind .name {
+    color: #ccc;
+    margin-left: 28px;
+}
+.appHeaderDownSlider .searchBody .main {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 28px;
+}
+.appHeaderDownSlider .searchBody .main .item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 168px;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+    color: #000;
+    text-indent: 8px;
+}
+.appHeaderDownSlider .searchBody .main .item:hover {
+    background-color: #ecf0f1;
+    border-radius: 5%;
+    color: #C20C0C;
+}
+.appHeaderDownSlider .searchBody .main .item .active {
+    background-color: #ecf0f1;
+    color: #C20C0C;
+}
+
+.appHeaderCenter {
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid rgb(79,79,79);
+    border-radius: 16px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+.appHeaderCenter a {
+    color: rgb(204,204,204);
+}
+.appHeaderCenter:hover {
+    border: 1px solid rgb(204,204,204);
+    
+}
+.appHeaderCenter:hover a {
+    color: rgb(255,255,255);
+}
+
+.appHeaderLogIn a{
+    color: rgb(120,120,120);
+}
+.appHeaderLogIn a:hover{
+    text-decoration: underline;
+    color: rgb(120,120,120);
+}
+.appHeaderDivider {
+    height: 5px;
+    background-color: #C20C0C;
+}
+.profileImg{
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+.login:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

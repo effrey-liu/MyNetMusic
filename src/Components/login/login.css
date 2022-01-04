@@ -1,0 +1,29 @@
+.loginBox {
+    display: flex;
+}
+
+.loginBox .gap {
+    margin-right: 18px;
+}
+
+
+.loginLeftBox {
+    width: 250px;
+}
+
+.loginLeftBox .loginLeftContent {
+    border-right: 1px solid #ccc;
+    height: 220px;
+}
+
+.loginLeftBox .loginLeftContent .loginLeftBackground {
+    width: 250px;
+    height: 140px;
+    background: url('../../Static/image/platform.png') no-repeat center;
+    margin-bottom: 30px;
+}
+
+.phoneLoginBox {
+    display: flex;
+    justify-content: center;
+}

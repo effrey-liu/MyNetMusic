@@ -1,0 +1,14 @@
+
+.recommend-ranking-tops {
+    margin: 30px 0;
+    display: flex;
+    background-image: url("../../../../Static/image/recommend-top-bg.png");
+    height: 472px;
+}
+
+body,textarea,select,input,button {
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}

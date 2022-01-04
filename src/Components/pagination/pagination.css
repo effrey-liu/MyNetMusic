@@ -1,0 +1,38 @@
+@import '~antd/dist/antd.css';
+
+.pagination {
+    text-align: center;
+    padding:20px 0 20px 0;
+}
+
+.pagination .control {
+    width: 69px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 0 5px;
+    color: #333;
+}
+.pagination .control:disabled {
+    color: #999;
+}
+
+.pagination .ant-pagination-item {
+    border: 1px solid #ccc !important;
+    margin: 0 5px!important;
+    border-radius: 3px!important;
+}
+
+.pagination .ant-pagination-item a{
+    font-size: 12px!important;
+}
+.pagination .ant-pagination-item-active{
+    background-color: #c20c0c!important;
+    border-color: #A2161B!important;
+}
+
+.ant-pagination-item-active a {
+    color: #fff!important;
+}

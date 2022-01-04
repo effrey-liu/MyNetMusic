@@ -1,0 +1,23 @@
+.singleBox {
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+.singleSongBox {
+    margin-top: 18px;
+}
+.searchContent {
+    text-align: center;
+}
+.searchBox {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    height: 90px;
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}

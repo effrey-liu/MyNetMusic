@@ -1,0 +1,11 @@
+.artistListBox {
+    flex: 1;
+    padding: 40px;
+}
+.artistListBox .artistList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 5px 0 40px;
+}

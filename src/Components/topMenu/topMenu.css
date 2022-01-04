@@ -1,0 +1,33 @@
+.topMenu {
+    height: 30px;
+    background-color: #C20C0C;
+}
+
+.topMenuBox {
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.topMenuList {
+    display: flex;
+    padding-left: 180px;
+    position: relative;
+    top: -4px;
+    font-size: 12px;
+}
+
+.topMenuItem a{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    color: #fff;
+}
+
+.topMenuItem a:hover, .topMenuItem .active {
+    text-decoration: none;
+    background-color: #9B0909;
+    color: #fff;
+    border-radius: 20px;
+  }

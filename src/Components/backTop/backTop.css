@@ -1,0 +1,26 @@
+.backTop {
+    position: fixed;
+    bottom: 160px;
+    right: 210px;
+
+    width: 49px;
+    height: 44px;
+
+    z-Index:'3';
+    background-color: rgb(245, 245, 245);
+
+    border:1px solid rgb(223, 223, 223);
+    border-radius: 10%;
+
+    text-align: center;
+    color: rgb(159, 159, 159);
+    line-height: 44px;
+    font-size: 12px;
+}
+.backTop:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+html {
+    scroll-behavior: smooth;
+}

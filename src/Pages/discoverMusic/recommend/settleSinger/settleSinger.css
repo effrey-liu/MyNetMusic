@@ -1,0 +1,56 @@
+
+.SettleSingerWrapper{
+    padding: 20px;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.SettleSingerWrapper .settle-singer-item {
+    display: flex;
+    height: 62px;
+    margin-top: 14px;
+    background-color: #fafafa;
+    text-decoration: none;
+}
+
+.SettleSingerWrapper .settle-singer-item:hover {
+    background-color: #f4f4f4;
+}
+
+.SettleSingerWrapper .settle-singer-item img {
+    width: 62px;
+    height: 62px;
+    border: none;
+    vertical-align: middle;
+}
+
+.SettleSingerWrapper .settle-singer-item .settle-singer-info {
+    margin: 8px 0 0 10px;
+}
+
+.SettleSingerWrapper .settle-singer-item .settle-singer-info .settle-singer-title {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.SettleSingerWrapper .settle-singer-item .settle-singer-info .settle-singer-name {
+    margin-top: 5px;
+}
+.settle-singer-apply-for {
+    margin-top: 12px;
+}
+.settle-singer-apply-for a {
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: 1px solid #c3c3c3;
+    text-decoration: none;
+}

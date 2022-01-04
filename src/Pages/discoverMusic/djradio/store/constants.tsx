@@ -1,0 +1,4 @@
+export const CHANGE_RADIO_CATEGORY = "djRadio/CHANGE_RADIO_CATEGORY";
+export const CHANGE_CURRENT_ID = "djRadio/CHANGE_CURRENT_ID";
+export const CHANGE_RECOMMENDS = "djRadio/CHANGE_RECOMMENDS";
+export const CHANGE_RADIOS = "djRadio/CHANGE_RADIOS";

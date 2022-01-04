@@ -1,0 +1,25 @@
+
+.hotAlbumBox { 
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+    padding: 20px 0;
+    padding-bottom: 5px;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+.hotAlbumTitle {
+    margin: 0 40px;
+    margin-top: 30px;
+    border-bottom: 2px solid #C20C0C;
+    padding-bottom: 10px;
+    font-size: 24px;
+    
+}
+.hotAlbumList {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px auto;
+}

@@ -1,0 +1,72 @@
+
+
+.BannerWrapper{
+    background: url("../../../../Static/image/download.png") center center/6000px;
+
+}
+
+.BannerWrapper .banner {
+    height: 270px;
+    background-color: red;
+
+    display: flex;
+    position: relative;
+
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+.BannerLeft{
+    width: 730px;
+
+}
+.BannerLeft .banner-item {
+    overflow: hidden;
+    height: 270px;
+}
+.BannerLeft .banner-item .image {
+    width: 100%;
+}
+
+.BannerRight a{
+    width: 254px;
+    height: 270px;
+    background: url("../../../../Static/image/download.png");
+}
+
+.BannerControl{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.BannerControl .left {
+    left: -68px;
+    background-position: 0 -360px;
+}
+
+.BannerControl .right {
+    right: -68px;
+    background-position: 0 -508px;
+}
+
+.BannerControl .btn {
+    position: absolute;
+    width: 37px;
+    height: 63px;
+    background-image: url("../../../../Static/image/banner_sprite.png");
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.BannerControl .btn:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+.wrap-v2{
+    width: 980px;
+    margin: 0 auto;
+}

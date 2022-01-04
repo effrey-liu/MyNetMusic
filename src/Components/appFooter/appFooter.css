@@ -1,0 +1,160 @@
+
+
+.appFooter {
+    height: 172px;
+    background-color: rgb(242, 242, 242);
+    color: rgb(102, 102, 102);
+    border-top: 1px solid rgb(211, 211, 211);
+    font-size: 12px;
+}
+.appFooterBox {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appFooterLeftBox {
+    padding-top: 15px;
+    line-height: 24px;
+}
+.appFooterLeftLinkItem {
+    color: #999;
+}
+.appFooterLeftLinkItem a {
+    color: #999;
+    text-decoration: none;
+}
+.appFooterLeftLinkItem a:hover {
+    color: #999;
+    text-decoration: underline;
+}
+.appFooterLeftLinkItem a:active {
+    color: #999;
+    text-decoration: underline;
+}
+.appFooterLeftLinkItem a:visited {
+    color: #999;
+    text-decoration: none;
+}
+.fenge {
+    margin: 0 10px;
+}
+
+.appFooterCopyright span {
+    margin-right: 15px;
+}
+.appFooterCopyright a {
+    color: #666;
+    text-decoration: none;
+}
+.appFooterCopyright a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+.appFooterCopyright a:active {
+    color: #666;
+    text-decoration: underline;
+}
+.appFooterCopyright a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+
+.appFooterReport span {
+    margin-right: 15px;
+}
+.appFooterReport a {
+    color: #666;
+    text-decoration: none;
+}
+.appFooterReport a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+.appFooterReport a:active {
+    color: #666;
+    text-decoration: underline;
+}
+.appFooterReport a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+
+.appFooterInfo span {
+    margin-right: 15px;
+}
+.appFooterInfo a {
+    color: #666;
+    text-decoration: none;
+}
+.appFooterInfo a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+.appFooterInfo a:active {
+    color: #666;
+    text-decoration: underline;
+}
+.appFooterInfo a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+.appFooterRightBox {
+    display: flex;
+    
+}
+.appFooterRightItem {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.appFooterRightLink {
+    display: block;
+    width: 50px;
+    height: 45px;
+    background-image: url(../../Static/image/sprite_footer_02.png);
+    background-size: 110px 450px;
+}
+
+.appFooterRightItem:nth-child(1) .appFooterRightLink {
+    background-position: -60px -101px;
+}
+.appFooterRightItem:nth-child(2) .appFooterRightLink {
+    background-position: 0 0;
+}
+.appFooterRightItem:nth-child(3) .appFooterRightLink {
+    background-position: -60px -50px;
+}
+.appFooterRightItem:nth-child(4) .appFooterRightLink {
+    background-position: 0 -101px;
+}
+
+.appFooterRightItemTitle {
+    margin-top: 5px;
+    display: block;
+    width: 52px;
+    height: 10px;
+    background-image: url(../../Static/image/sprite_footer_01.png);
+    background-size: 180px 100px;
+}
+.appFooterRightItem:nth-child(1) .appFooterRightItemTitle {
+    background-position: -1px -90px;
+    margin-top: 6px;
+}
+.appFooterRightItem:nth-child(2) .appFooterRightItemTitle {
+    background-position: 0 0;
+    margin-top: 6px;
+}
+.appFooterRightItem:nth-child(3) .appFooterRightItemTitle {
+    background-position: 0 -54px;
+    margin-top: 6px;
+}
+.appFooterRightItem:nth-child(4) .appFooterRightItemTitle {
+    background-position: -1px -72px;
+    margin-top: 6px;
+}

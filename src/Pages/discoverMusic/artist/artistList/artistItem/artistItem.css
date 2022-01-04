@@ -1,0 +1,33 @@
+.artistItemBox {
+    width: 130px;
+    margin-top: 15px;
+}
+
+.artistItemBox .image img {
+    width: 130px;
+    height: 130px;
+}
+
+.artistItemBox .info {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.artistItemBox .info .name {
+    cursor: pointer;
+}
+
+.artistItemBox .info .name:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.artistItemBox .info .icon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url(../../../../../Static/image/sprite_icon2.png);
+    background-position: 0 -740px;
+}
+

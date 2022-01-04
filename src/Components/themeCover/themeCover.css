@@ -1,0 +1,77 @@
+.ThemeCoverWrapper{
+    font-size: 12px !important;
+    color: #333!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    background-color: #f5f5f5!important;
+}
+
+.ThemeCoverWrapper .cover-top {
+    position: relative!important;
+}
+
+.ThemeCoverWrapper .cover-top img {
+    width: 140px!important;
+    height: 140px!important;
+    border: none!important;
+    vertical-align: middle!important;
+}
+
+.ThemeCoverWrapper .cover-top .cover {
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-position: 0 0!important;
+}
+.ThemeCoverWrapper .cover-top .cover .info {
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    padding: 0 10px!important;
+    position: absolute!important;
+    bottom: 0!important;
+    left: 0!important;
+    right: 0!important;
+    background-position: 0 -537px!important;
+    color: #ccc!important;
+    height: 27px!important;
+}
+.ThemeCoverWrapper .cover-top .cover .info .erji {
+    margin-right: 5px!important;
+    display: inline-block!important;
+    width: 14px!important;
+    height: 11px!important;
+    background-position: 0 -24px!important;
+}
+
+.ThemeCoverWrapper .cover-top .cover .info .play {
+    display: inline-block!important;
+    width: 16px!important;
+    height: 17px!important;
+    background-position: 0 0!important;
+}
+
+.ThemeCoverWrapper .cover-bottom {
+    font-size: 14px!important;
+    color: #000!important;
+    margin-top: 5px!important;
+}
+
+.ThemeCoverWrapper .cover-source {
+    color: #666!important;
+}
+
+.sprite_cover{
+    background: url(../../Static/image/sprite_cover.png) no-repeat 0 9999px;
+}
+
+.sprite_icon {
+    background: url(../../Static/image/sprite_icon.png) no-repeat 0 9999px;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

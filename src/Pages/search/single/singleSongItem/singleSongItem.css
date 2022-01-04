@@ -1,0 +1,55 @@
+.singleSongItemBox {
+  display: flex;
+  padding: 10px 10px 8px 18px;
+  border: 1px solid #fff;
+}
+.singleSongItemBox:hover {
+    border: 1px solid #e1e1e1;
+    background: #f2f2f2;
+}
+.singleSongItemBox .singleSongName {
+    width: 370px;
+    display: flex;
+    justify-items: center;
+}
+
+.singleSongItemBox .singleSongName  .anticon-play-circle {
+    color: #b2b2b2;
+    font-size: 18px;
+}
+.singleSongItemBox .singleSongName  .anticon-play-circle:hover {
+    color: #666666;
+}
+
+.singleSongItemBox .singleSongName >  em {
+    margin-left: 5px;
+    color: #0c73c2;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.singleSongItemBox .singleSongName >  em:hover {
+    text-decoration: underline;
+}
+.singleSongItemBox .singleSongName .btn {
+    width: 17px;
+    height: 17px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.singleSongItemBox .singleSongName .addto {
+      position: relative;
+      top: 2px;
+      background: url(../../../../Static/image/sprite_icon2.png) no-repeat 0 9999px;
+      background-position: 0 -700px;
+}
+.singleSongItemBox:nth-child(even) {
+    background: #f7f7f7;
+    border-color: #f7f7f7; 
+}
+.singleSongItemBox:nth-child(even):hover {
+    border: 1px solid #e1e1e1;
+    background: #f2f2f2; 
+}

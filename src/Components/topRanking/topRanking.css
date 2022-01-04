@@ -1,0 +1,163 @@
+.TopRankingWrapper {
+    flex: 1;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TopRankingWrapper .top-ranking-header {
+    height: 100px;
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+.TopRankingWrapper .top-ranking-header .top-ranking-image {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.TopRankingWrapper .top-ranking-header  .top-ranking-image  img {
+    width: 80px;
+    height: 80px;
+}
+
+.TopRankingWrapper .top-ranking-header .top-ranking-info {
+    margin: 5px 0 0 10px;
+}
+.TopRankingWrapper .top-ranking-header .top-ranking-info  a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.TopRankingWrapper .top-ranking-header .top-ranking-info .btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 22px;
+    height: 22px;
+    margin: 8px 10px 0 0;
+    cursor: pointer;
+}
+
+.TopRankingWrapper .top-ranking-header .top-ranking-info .top-ranking-play {
+    background-position: -267px -205px;
+}
+
+.TopRankingWrapper .top-ranking-header .top-ranking-info .top-ranking-favor {
+    background-position: -300px -205px;
+}
+
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item:nth-child(-n+3) .top-ranking-rank {
+    color: #c10d0c;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-rank {
+    width: 35px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info {
+    color: #000;
+    width: 170px;
+    height: 17px;
+    line-height: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info a{
+    color: #333;
+}
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info .top-ranking-name {
+    flex: 1;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info .top-ranking-operate {
+    display: flex;
+    align-items: center;
+    display: none;
+    width: 82px;
+}
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info .top-ranking-operate .btn {
+    width: 17px;
+    height: 17px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info .top-ranking-operate .top-ranking-play {
+    background-position: -267px -268px;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info .top-ranking-operate .top-ranking-addto {
+    position: relative;
+    top: 2px;
+    background-position: 0 -700px;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item .top-ranking-info .top-ranking-operate .top-ranking-favor {
+    background-position: -297px -268px;
+}
+
+.TopRankingWrapper .top-ranking-list .top-ranking-list-item:hover .top-ranking-operate {
+    display: block;
+}
+
+.TopRankingWrapper .top-ranking-footer {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    justify-content: flex-end;
+}
+
+.TopRankingWrapper .top-ranking-footer a {
+    color: #000;
+}
+
+.top-ranking-footer a {
+    color: #000;
+}
+
+.top-ranking-footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+a, button {
+    outline: none;
+    border: none;
+}
+
+.image_cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    background: url(../../Static/image/sprite_cover.png) no-repeat -145px -57px;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+

@@ -1,0 +1,9 @@
+
+.playlistWrapper {
+    padding: 40px !important;
+    border: 1px solid #d3d3d3 !important;
+    border-width: 0 1px !important;
+    background-color:#fff !important;
+    width: 980px !important;
+    margin: 0 auto !important;
+}

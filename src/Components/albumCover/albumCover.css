@@ -1,0 +1,50 @@
+
+.AlbumItem {
+    width: 153px;
+}
+.AlbumIcon {
+    position: relative;
+    width: 153px;
+    height: 130px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.AlbumIcon img {
+    width: 130px;
+    height: 130px;
+}
+
+.cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../Static/image/sprite_cover.png);
+    background-position: 0 -845px;
+}
+
+.AlbumName {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: -2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.AlbumNickName {
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+
+.AlbumName:hover,.AlbumNickName:hover {
+    text-decoration: underline;
+}
+
+.AlbumNickNameBox {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

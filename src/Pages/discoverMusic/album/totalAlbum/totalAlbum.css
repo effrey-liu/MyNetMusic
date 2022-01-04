@@ -1,0 +1,43 @@
+.totalAlbumBox {
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+    padding-bottom: 5px;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    padding: 20px 0 ;
+}
+.totalAlbumTitleBox {
+    margin: 0 40px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #C20C0C;
+}
+.totalAlbumTitle {
+    margin-right: 20px;
+    font-size: 24px;
+}
+.fenge{
+    margin: 0 10px;
+}
+.totalAlbumKind {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    cursor: pointer;
+}
+.totalAlbumKind:hover {
+    text-decoration: underline;
+}
+
+.totalAlbumList {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+.notshow {
+    display: none;    
+}
+
+

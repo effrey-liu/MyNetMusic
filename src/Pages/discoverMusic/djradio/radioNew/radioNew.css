@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(245,245,245);
+}
+.radioNewBox {
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    padding: 20px 0 0;
+}
+.radioNewTitle {
+    margin: 0 40px;
+    border-bottom: 2px solid #C20C0C;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+.radioNewList {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}

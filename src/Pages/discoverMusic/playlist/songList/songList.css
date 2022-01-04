@@ -1,0 +1,7 @@
+
+.SongListWrapper .songs-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    margin-right: -30px !important;
+}

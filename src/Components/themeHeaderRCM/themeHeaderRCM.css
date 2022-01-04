@@ -1,0 +1,71 @@
+
+div.HeaderRCMWrapper {
+    background-position: -225px -156px;
+    height: 33px;
+    border-bottom: 2px solid rgb(193, 13, 12);
+    padding: 0px 10px 4px 34px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+div.left {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 31.2px;
+}
+div.left>.title {
+    font-size: 20px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+.HeaderRCMWrapper .left>.keyword {
+    display: flex;
+}
+
+.HeaderRCMWrapper .left .item>.divider {
+        margin: 0 15px;
+        color: #ccc;
+}
+
+.HeaderRCMWrapper .right {
+    display: flex;
+    align-items: center;
+}
+
+.right a{
+    text-decoration: none;
+    color: #666;
+}
+.right a:hover{
+    color: #666;
+    text-decoration: underline;
+}
+.HeaderRCMWrapper .right>.icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    background-position: 0 -240px;
+}
+
+.HeaderRCMWrapper .icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    vertical-align: middle;
+    background-position: 0 -240px;
+}
+.sprite_02 {
+    background: url(../../Static/image/sprite_02.png) no-repeat 0 9999px;
+}
+.HeaderRCMWrapper {
+    font-size: 12px;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+}

@@ -1,0 +1,31 @@
+.alphaListBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.alphaListBox .item {
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+
+
+.alphaListBox .item span {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.alphaListBox .item span:hover {
+    text-decoration: underline;
+}
+
+
+.alphaListBox .active {
+    background-color: #c20c0c;
+}
+
+.alphaListBox .active span {
+    color: #fff;
+}

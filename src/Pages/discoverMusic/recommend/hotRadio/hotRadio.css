@@ -1,0 +1,45 @@
+
+.HotRadioWrapper{
+    padding: 20px;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.hot-radio-list {
+    margin-top: 20px;
+
+}
+
+.hot-radio-item {
+    display: flex;
+    margin-bottom: 10px;
+    width: 210px;
+}
+
+.hot-radio-image img{
+    width: 40px;
+    height: 40px;
+}
+
+.hot-radio-item .info {
+    width: 160px;
+    margin-left: 8px;
+
+}
+
+.hot-radio-name {
+    color: #000;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.hot-radio-position {
+    color: #666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
