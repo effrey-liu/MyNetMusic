@@ -3,7 +3,7 @@
 * [项目要求](https://docs.qq.com/doc/p/426ac3761378142cddefaa7e707f580ead4779c8?groupUin=EpKaDT7UGTqbLo5fYlKYxQ%253D%253D&ADUIN=2318266514&ADSESSION=1637663925&ADTAG=CLIENT.QQ.5651_.0&ADPUBNO=27156&jumpuin=2318266514)
 
 ### 项目预览
-* 预览地址：[点我](  )
+* 预览地址：[点我]( https://effrey-liu.github.io/MyNetMusic/build/index.html )
 
 
 ## 项目技术栈
@@ -57,4 +57,6 @@
 	npm install
 	# 启动项目，运行在localhost:3000
 	npm run start
+  # 项目部署
+  npm run build
 ```
