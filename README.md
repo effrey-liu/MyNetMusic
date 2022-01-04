@@ -36,14 +36,14 @@
 
 ### 项目文件结构
 * src
-  * Pages 页面
-  * Router 路由信息配置
-  * Request 后端请求功能
-  * Utils 非组件的函数与类
-  * Components 页面组件及其样式文件
-  * Static 页面所需资源
-  * app.tsx 根组件
-  * index.tsx 入口文件
+  - Pages 页面
+  - Router 路由信息配置
+  - Request 后端请求功能
+  - Utils 非组件的函数与类
+  - Components 页面组件及其样式文件
+  - Static 页面所需资源
+  - app.tsx 根组件
+  - index.tsx 入口文件
 * public 静态文件资源
 * package.json
 * tsconfig.json
@@ -53,10 +53,11 @@
 - clone网易云api到本地，并按照网站指示开启服务
 - 克隆本项目代码到本地，在powershell中运行：
 ```
-	# 安装依赖
-	npm install
-	# 启动项目，运行在localhost:3000
-	npm run start
+  # 安装依赖
+  npm install
+  # 启动项目，运行在localhost:3000
+  npm run start
   # 项目部署
   npm run build
+  
 ```
