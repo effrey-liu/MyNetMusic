@@ -1,5 +1,5 @@
 
-# 本项目为腾讯课堂大作业
+# 本项目为腾讯&华科举办的课堂大作业
 * [项目要求](https://docs.qq.com/doc/p/426ac3761378142cddefaa7e707f580ead4779c8?groupUin=EpKaDT7UGTqbLo5fYlKYxQ%253D%253D&ADUIN=2318266514&ADSESSION=1637663925&ADTAG=CLIENT.QQ.5651_.0&ADPUBNO=27156&jumpuin=2318266514)
 
 ### 项目预览
